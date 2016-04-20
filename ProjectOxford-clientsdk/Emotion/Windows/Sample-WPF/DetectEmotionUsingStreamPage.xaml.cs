@@ -172,13 +172,39 @@ namespace EmotionAPI_WPF_Samples
 //            var uri = "kkbox://play_song_77706479";
             var uri = "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe";
             //            var success = await System.Windows.Launcher.LaunchUriAsync(uri);
-            // 哈林 快樂頌
-            // kkbox://play_song_70860077
-            // 陳山妮 如同悲傷被下載了兩次
-            // kkbox://play_song_77706479
-            // 許如芸 生氣
-            // kkbox://play_song_849314
-            System.Diagnostics.Process.Start(uri, "kkbox://play_song_77706479");
+
+            //resultDisplay[0] = new EmotionResultDisplay { EmotionString = "Anger", Score = emotion.Scores.Anger };
+            //resultDisplay[1] = new EmotionResultDisplay { EmotionString = "Contempt", Score = emotion.Scores.Contempt };
+            //resultDisplay[2] = new EmotionResultDisplay { EmotionString = "Disgust", Score = emotion.Scores.Disgust };
+            //resultDisplay[3] = new EmotionResultDisplay { EmotionString = "Fear", Score = emotion.Scores.Fear };
+            //resultDisplay[4] = new EmotionResultDisplay { EmotionString = "Happiness", Score = emotion.Scores.Happiness };
+            //resultDisplay[5] = new EmotionResultDisplay { EmotionString = "Neutral", Score = emotion.Scores.Neutral };
+            //resultDisplay[6] = new EmotionResultDisplay { EmotionString = "Sadness", Score = emotion.Scores.Sadness };
+            //resultDisplay[7] = new EmotionResultDisplay { EmotionString = "Surprise", Score = emotion.Scores.Surprise };
+
+            float fAnger = emotionResult[0].Scores.Anger;
+            float fSadness = emotionResult[0].Scores.Sadness;
+            float fHappiness = emotionResult[0].Scores.Happiness;
+            string sSongURL = "";
+            if (fAnger > 0.5)
+            {
+                // 許如芸 生氣
+                sSongURL = "kkbox://play_song_849314";
+
+            }
+            if (fSadness > 0.5)
+            {
+                // 陳珊妮 如同悲傷被下載了兩次
+                sSongURL = "kkbox://play_song_77706479";
+
+            }
+            if (fHappiness > 0.5)
+            {
+                // 哈林 快樂頌
+                sSongURL = "kkbox://play_song_70860077";
+
+            }
+            System.Diagnostics.Process.Start(uri, sSongURL);
 
         }
     }
