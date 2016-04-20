@@ -200,8 +200,8 @@ namespace EmotionAPI_WPF_Samples
             }
             if (fHappiness > 0.5)
             {
-                // 哈林 快樂頌
-                sSongURL = "kkbox://play_song_70860077";
+                // Happy Birthday	寶兒 (BoA)	千顏兒語 (THE FACE)
+                sSongURL = "kkbox://play_song_1601466";
 
             }
             System.Diagnostics.Process.Start(uri, sSongURL);
