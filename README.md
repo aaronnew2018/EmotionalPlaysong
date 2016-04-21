@@ -1,4 +1,4 @@
-# 看臉色播歌 POC (Microsoft Cognitive Services, Face Api)
+# 看臉色播歌 POC 
 
 
 ### Demo 簡介
@@ -20,7 +20,7 @@
 `ProjectOxford-clientsdk\Emotion\Windows\Sample-WPF\EmotionAPI-WPF-Samples.sln` 
 F5 執行 `EmotionAPI-WPF-Samples` project, 就會看到 Face API example dialog.
 
-Emotion API dialog 會先要求我們填入 key, 要在這邊申請自己的 Face API subscription key:
+Emotion API dialog 會先要求我們填入 key, 要在 Microsoft Cognitive Services 這邊申請自己的 Face API subscription key:
 https://www.microsoft.com/cognitive-services/en-us/face-api
 https://www.microsoft.com/cognitive-services/en-us/subscriptions
 
