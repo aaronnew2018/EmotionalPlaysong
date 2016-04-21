@@ -37,5 +37,7 @@ https://www.microsoft.com/cognitive-services/en-us/subscriptions
 
 由於投入的開發時間不多，我是直接使用整個 SDK & sample 來修改，還沒有排除掉不需要的部分，檔案數量有點大。
 
+### Todo
+在 client 這邊明顯可以改進的部分是，把「讀取一張照片」改成「從 webcam/手機相機 拍照」，讓整個流程更順暢，用戶只要做個表情，按個照相按鍵， kkbox 就播放符合用戶心情的歌曲。<br>
 
 
