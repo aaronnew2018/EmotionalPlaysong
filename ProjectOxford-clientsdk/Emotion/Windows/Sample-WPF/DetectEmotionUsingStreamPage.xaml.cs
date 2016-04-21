@@ -169,8 +169,6 @@ namespace EmotionAPI_WPF_Samples
             window.LogEmotionResult(emotionResult);
 
             _emotionDetectionUserControl.Emotions = emotionResult;
-//            var uri = "kkbox://play_song_77706479";
-            var uri = "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe";
             //            var success = await System.Windows.Launcher.LaunchUriAsync(uri);
 
             //resultDisplay[0] = new EmotionResultDisplay { EmotionString = "Anger", Score = emotion.Scores.Anger };
@@ -204,6 +202,8 @@ namespace EmotionAPI_WPF_Samples
                 sSongURL = "kkbox://play_song_1601466";
 
             }
+            //            var uri = "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe";
+            var uri = "D:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe";
             System.Diagnostics.Process.Start(uri, sSongURL);
 
         }
