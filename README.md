@@ -44,6 +44,6 @@ https://www.microsoft.com/cognitive-services/en-us/subscriptions
   *  「怎麼定義每一首歌的情緒」、
   *  「如何把 Train model 裝置到 client 上，在離線狀況（捷運車廂）也可以反應」（微軟還沒做出來， google TensorFlow 似乎有）
   *  「如何把用戶對此次播歌的滿意度回饋給 server 的 train model」
- 
+ * 試用 Cognitive Services 其他部分，例如語音等等，聲控 kkbox 播放歌曲。 
 ### Misc.
  Face API example 中可看到已經有部分功能實做了其他語言、平台的版本，例如 Python, Android, iOS.
