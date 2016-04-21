@@ -50,4 +50,4 @@ https://www.microsoft.com/cognitive-services/en-us/subscriptions
  * 試用 Cognitive Services 其他部分，例如語音等等，聲控 kkbox 播放歌曲。
  
 ### Misc.
- Face API example 中可看到已經有部分功能實做了其他語言、平台的版本，例如 Python, Android, iOS.
+ Cognitive Services example 中可看到已經有部分功能實做了其他語言、平台的版本，例如 Python, Android, iOS.
