@@ -8,11 +8,14 @@
 
 由於我(patrick)不確定是否 kkbox 產品適合參與這種 Hackathon 活動，工作上也沒有那麼多時間。<br>
 所以昨天演講結束後就沒參加 Hackathon, 自己玩了 Face API, 由於花的時間還不多，這份 demo 目前還很粗糙。<br>
-這個 demo 它做的事情是：「依照用戶目前臉部的情緒，播放一首 kkbox 歌曲給用戶」。
+
+這份 demo code 裡面沒有包含任何關於 kkbox client 的 code, 不公開的 API/protocol, 也不代表任何 kkbox client 未來發展的意圖。<br>
+它做的事情是：「依照用戶目前臉部的情緒，播放一首 kkbox 歌曲給用戶」。
 
 它的工作原理是，「讀取一張照片」，呼叫 microsoft Face API 來「判斷這張照片的情緒」，然後「要 kkbox 播放一首符合目前情緒的歌曲」。
 目前 Face API example 定義的 emotions 有這八種：Anger Contempt Disgust Fear Happiness Neutral Sadness Surprise ,
 現在我只有對其中三種  Anger Happiness Sadness 做判斷，利用 Custom URL Scheme `kkbox://` 開啟 firefox, 要 kkbox 播放「許如芸 生氣」、「Happy Birthday	寶兒 (BoA)」、「陳珊妮 如同悲傷被下載了兩次」 這三首歌曲。
+
 
 
 ### 使用方法
