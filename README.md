@@ -1,4 +1,4 @@
-# Emotional Playsong POC
+# 人臉情緒播歌 POC
 
 ### Demo 簡介
 2016 四月微軟在台北舉辦了一項叫做 DevDays Asia 2016 的活動： https://www.microsoft.com/taiwan/events/devdays/agenda.htm
